@@ -16,7 +16,7 @@ Channel
 
 read_pairs.into{trim_input}
 
-/* process FASTQC {
+ process FASTQC {
 
         publishDir "results/pl10/fastqc"
 
@@ -33,7 +33,7 @@ read_pairs.into{trim_input}
 
 }
 
-*/
+
 process BBDUK {
 
         publishDir "results/pl10/trim"
