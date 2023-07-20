@@ -1,3 +1,8 @@
-Test repository for developing small nextflow scripts
+# Personal test repository for developing small nextflow scripts
 
-variant calling: pipeline for calling small variants from illumina long amplicon reads
+**variant_calling: ** Minimal and fast pipeline for calling short variants (germline only) from targetted amplicons sequenced using the illumina long amplicon protocol. can be used as a generalised qucik and dirty variant caller for small sequencing projects.
+  to do: 
+         - build docker container for the software
+         - remove filepaths and generalise
+         - create config /parameter files
+         - update syntax to dsl2
