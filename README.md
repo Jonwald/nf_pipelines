@@ -1,1 +1,1 @@
-filler_text
+Test repository for developing small nextflow scripts
