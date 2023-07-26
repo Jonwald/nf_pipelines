@@ -1,0 +1,11 @@
+process {
+    withName:foo {
+        container = 'image_name_1'
+    }
+    withName:bar {
+        container = 'image_name_2'
+    }
+}
+podman {
+    enabled = true
+}
